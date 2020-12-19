@@ -3,8 +3,7 @@ import pyautogui as sc
 
 class Bot:
     def __init__(self):
-        self.query = query
-        self.speed = speed
+        self.query = 0
 
     def start(self):
         img = sc.screenshot(region=(209, 371, 100, 100))
